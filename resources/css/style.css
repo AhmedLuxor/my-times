@@ -1,0 +1,221 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: fixed;
+  top:0px;
+  background-color: white;
+  z-index: 5;
+}
+
+.logo {
+  display: flex;
+  color: mediumaquamarine;
+  padding-left: 30px;
+}
+
+.logo span {
+  font-size: 14px;
+  align-self: center;
+}
+
+nav {
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: black;
+  padding: 10px;
+}
+
+.navigation-top a:hover {
+  color: mediumaquamarine;
+}
+
+
+
+section {
+/*  border: solid 1px black;  /*for debugging*/
+}
+
+article {
+  /* border: solid 1px black;  /*for debugging*/
+}
+
+div {
+  /* border: solid 1px black;  /*for debugging*/
+  display: block;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    width: 95%;
+    margin: 50px auto 100px auto;
+}
+
+.column-large {
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 32px;
+  justify-content: flex-start;
+}
+
+.main-title {
+  font-family: Georgia;
+font-weight: bold;
+font-size: 40px;
+color: white;
+text-align: left;
+}
+
+.main-story {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  height: 300px;
+  justify-content: flex-start;
+}
+
+.column-medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column-small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.earth-spins {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+}
+
+.earth-spins .earth-spins-title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+
+.cameras {
+  display: flex;
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  justify-content: flex-start;
+}
+
+.cameras .cameras-title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cats {
+  display: flex;
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+  justify-content: center;
+}
+
+.cats .cats-title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+
+.stories {
+  width: 700px;
+  display:flex;
+  margin-top: 17px;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.new-bites {
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+.bite {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+.column-small article h2 {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  align-content: center;
+}
+
+.footer-title {
+  align-self: center;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-navigation {
+  align-self: center;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+}
